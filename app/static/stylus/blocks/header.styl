@@ -2,4 +2,68 @@
 
 .header
   width 100%
-  height $heightHeader
+  background $black
+  
+  &--nav
+    width 100%
+    max-width 1760px
+    height $heightHeader
+    margin 0 auto
+    display flex
+    align-items center
+
+    &--item
+      color $gray-8c
+      font-family $fontBold
+      font-size 12px
+      text-transform uppercase
+      letter-spacing 2.4px
+      transition: $fast
+      padding 5px 0
+
+      &:hover,
+      &__active
+        color $white
+
+    &__pages
+      width 547px
+      display flex
+      justify-content space-between
+      align-items center
+      flex-shrink: 0
+      margin-left 322px
+      margin-right 206px
+
+  &--directions
+    display flex
+    justify-content space-between
+    width 284px
+    flex-shrink: 0
+
+    &--item
+      letter-spacing 2.35px
+      padding-left 15px
+        
+      &::before
+        content: ""
+        display block
+        width 5px
+        height 5px
+        background $gray-8c
+        position relative
+        left -15px
+        top 11px
+        border-radius: 50%
+        transition: $fast
+
+      &:hover,
+      &__active
+
+        &::before
+          background $white
+
+  &--phone
+    color $white
+    margin-right 87px
+    font-size: 14px
+    flex-shrink: 0

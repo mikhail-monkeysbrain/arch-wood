@@ -1,7 +1,16 @@
 footer.footer
-  h2 footer
-  .footer-container
-    nav.footer-nav
-      each item in menu
-        a(href= item.link).footer-nav--item.jsAncor
-          = item.name
+  .footer__top
+    a(href="javascript:void(0)").footer--logo
+      img(src="./dist/img/core/logo__footer.png", alt="logo").footer--logo--img
+    .footer--address
+      p.footer--inline Саввинская набережная, 23
+      p.footer--inline 
+        a(href="tel: +74957892803") +7 (495) 789-28-03
+      p.footer--inline 
+        a(href="mailto: info@archwood.ru") info@archwood.ru
+    .footer--time
+      p.footer--time__heading.footer--inline.__uppercase Время работы
+      p.footer--inline пн-пт 10:00 - 20:00
+      p.footer--inline сб-вс 11:00 - 19:00
+
+  .footer__bottom

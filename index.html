@@ -9,21 +9,31 @@
   </head>
   <body>
     <header class="header">
-      <h2>header</h2>
-      <div class="header-container">
-        <nav class="header-nav"><a href="javascript:void(0)">Главная</a><a href="javascript:void(0)">Внутренняя</a>
+      <div class="header--nav">
+        <nav class="header--directions"><a class="header--nav--item header--directions--item header--nav--item__active" href="javascript:void(0)">Паркет</a><a class="header--nav--item header--directions--item" href="javascript:void(0)">Керамика</a>
         </nav>
+        <nav class="header--nav__pages"><a class="header--nav--item header--nav--item__active" href="javascript:void(0)">О нас</a><a class="header--nav--item __underline" href="javascript:void(0)">Контакты</a><a class="header--nav--item header--nav--item__active" href="javascript:void(0)">Дизайнерам и архитекторам</a>
+        </nav><a class="header--phone" href="tel:+74955555555">+7 (495) <span class="__black">555-55-55</span></a>
+        <button class="btn btn__transparent btn__middle">Обратный звонок</button>
       </div>
     </header>
     <main class="grid">
       <h2>main</h2>
     </main>
     <footer class="footer">
-      <h2>footer</h2>
-      <div class="footer-container">
-        <nav class="footer-nav"><a class="footer-nav--item jsAncor" href="javascript:void(0)">Главная</a><a class="footer-nav--item jsAncor" href="javascript:void(0)">Внутренняя</a>
-        </nav>
+      <div class="footer__top"><a class="footer--logo" href="javascript:void(0)"><img class="footer--logo--img" src="./dist/img/core/logo__footer.png" alt="logo"/></a>
+        <div class="footer--address">
+          <p class="footer--inline">Саввинская набережная, 23</p>
+          <p class="footer--inline"> <a href="tel: +74957892803">+7 (495) 789-28-03</a></p>
+          <p class="footer--inline"> <a href="mailto: info@archwood.ru">info@archwood.ru</a></p>
+        </div>
+        <div class="footer--time">
+          <p class="footer--time__heading footer--inline __uppercase">Время работы</p>
+          <p class="footer--inline">пн-пт 10:00 - 20:00</p>
+          <p class="footer--inline">сб-вс 11:00 - 19:00</p>
+        </div>
       </div>
+      <div class="footer__bottom"></div>
     </footer>
     <script src="dist/js/app.js"></script>
   </body>

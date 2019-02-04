@@ -1,0 +1,28 @@
+.btn
+  height 50px
+  border: 0
+  outline none
+  text-decoration none
+  text-transform uppercase
+  color $white
+  font-size: 12px
+  letter-spacing 1.9px
+  flex-shrink: 0
+  line-height 50px
+  font-family $fontLight
+  cursor pointer
+  transition: $middle
+  
+  &__middle
+    padding 0 20px
+  
+  &__large
+    padding 0 40px
+
+  &__transparent
+    border 1px solid $white
+    background transparent
+
+    &:hover
+      box-shadow: inset 0 0 15px 0 $white
+      text-shadow: 1px 1px 5px $white

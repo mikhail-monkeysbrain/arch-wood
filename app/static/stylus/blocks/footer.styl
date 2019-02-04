@@ -3,3 +3,35 @@
 .footer
   width 100%
   height: $heightFooter
+  background $black
+
+  &--logo
+    width 221px
+
+  &__top,
+  &__bottom
+    width 100%
+    max-width 1360px
+    margin 0 auto
+    display flex
+    justify-content space-between
+    align-items flex-start
+  
+  &__top
+    padding-top 80px
+
+  &--inline,
+  &--inline a
+    color $gray-a0
+    font-size: 14px
+    line-height 29px
+
+  &--inline a
+    transition: $fast
+
+    &:hover
+      color $white
+    
+  &--time
+    &__heading
+      letter-spacing 2.4px

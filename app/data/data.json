@@ -1,12 +1,105 @@
 {
-	"menu" : {
-		"main": {
-			"name": "Главная",
-      "link": "javascript:void(0)"
+	"directions" : {
+		"parquet": {
+			"name": "Паркет",
+      "link": "javascript:void(0)",
+      "active": "true"
 		},
-		"functions": {
-			"name": "Внутренняя",
+		"ceramics": {
+			"name": "Керамика",
       "link": "javascript:void(0)"
 		}
+  },
+	"menu" : {
+		"item-1": {
+			"name": "О нас",
+      "link": "javascript:void(0)",
+      "class": "header--nav--item__active"
+		},
+		"item-2": {
+			"name": "Контакты",
+      "link": "javascript:void(0)",
+      "class": "__underline"
+		},
+		"item-3": {
+			"name": "Дизайнерам и архитекторам",
+      "link": "javascript:void(0)",
+      "class": ".header--nav--item__active"
+		}
+  },
+  "breadCrumbs": {
+    "d-1": "Главная",
+    "d-2": "Паркет",
+    "d-3": "Паркетная доска"
+  },
+  "cardHeading": "Паркетная доска",
+  "cardDescription": "Паркетная доска занимает особое место среди материалов, используемых для отделки полов. Она сумела сохранить в себе лучшие качества, присущее традиционному штучному паркету и обрести повышенные эксплуатационные характеристики, свойственные инновационным продуктам. Паркетная доска универсальна. Великолепные напольные покрытия, созданные из нее, украшают роскошные особняки, обычные квартиры, концертные, банкетные залы, офисы во многих городах России и других стран мира. Выгодно приобрести замечательный материал в городе Москва предлагает компания ParketDocka.ru. Мы работаем в этом сегменте рынка уже около 17 лет, входим в число лидеров продаж паркетной доски в стране и сможем предложить вам именно то, что нужно!",
+  "catalogFilter": {
+    "catalogFilterOption-1": {
+      "heading": "Длина",
+      "array": ["Все, 100, 200, 300"]
+    },
+    "catalogFilterOption-2": {
+      "heading": "ширина",
+      "array": ["Все, 100, 200, 300"]
+    },
+    "catalogFilterOption-3": {
+      "heading": "толщина",
+      "array": ["Все, 100, 200, 300"]
+    },
+    "catalogFilterOption-4": {
+      "heading": "бренд",
+      "array": ["Все, 100, 200, 300"]
+    },
+    "catalogFilterOption-5": {
+      "heading": "тип",
+      "array": ["Все, 100, 200, 300"]
+    },
+    "catalogFilterOption-6": {
+      "heading": "порода дерева",
+      "array": ["Все, 100, 200, 300"]
+    },
+    "catalogFilterOption-7": {
+      "heading": "селекция",
+      "array": ["Все, 100, 200, 300"]
+    },
+    "catalogFilterOption-8": {
+      "heading": "финишная обработка",
+      "array": ["Все, 100, 200, 300"]
+    },
+    "catalogFilterOption-9": {
+      "heading": "цвет",
+      "array": ["Все, 100, 200, 300"]
+    }
+  },
+  "goods": {
+    "good-1": {
+      "brend": "Ebony&Co",
+      "color": "Европейский дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-1.jpg"
+    },
+    "good-2": {
+      "brend": "Ebony&Co",
+      "color": "Континентальный дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-2.jpg"
+    },
+    "good-3": {
+      "brend": "Ebony&Co",
+      "color": "Амриканский белый дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-3.jpg"
+    },
+    "good-4": {
+      "brend": "Ebony&Co",
+      "color": "Амриканский белый дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-4.jpg"
+    }
   }
 }

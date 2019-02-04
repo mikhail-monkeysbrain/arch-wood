@@ -1,8 +1,18 @@
 block header
   header.header
-    h2 header
-    .header-container
-      nav.header-nav
+    .header--nav
+      nav.header--directions
+        each direction in directions
+          if (direction.active)
+              a(href= direction.link).header--nav--item.header--directions--item.header--nav--item__active
+                = direction.name
+          else
+            a(href= direction.link).header--nav--item.header--directions--item
+              = direction.name
+      nav.header--nav__pages
         each item in menu
-          a(href= item.link, class= item.class)
+          a(href= item.link class="header--nav--item " + item.class)
             = item.name
+      a(href="tel:+74955555555").header--phone +7 (495) 
+        span.__black 555-55-55
+      button.btn.btn__transparent.btn__middle Обратный звонок
