@@ -23,8 +23,10 @@
     "slick-carousel": "^1.8.1"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "gulp-pug": "^4.0.1",
     "gulp.spritesmith": "^6.9.0",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "select2": "^4.0.6-rc.1"
   }
 }

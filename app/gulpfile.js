@@ -47,9 +47,8 @@ gulp.task('stylus', () => {
 gulp.task('scripts', () => {
     return gulp.src([
         'node_modules/jquery/dist/jquery.min.js',
-        'node_modules/slick-carousel/slick/slick.min.js',
-        'static/js/vendors/*.js',
-        'static/js/scripts/**/*.js'
+        'static/vendors/**/*.js',
+        'static/js/**/*.js'
     ])
     .pipe(gp.concat('app.js'))
     .pipe(gulp.dest('../dist/js/'))
@@ -91,7 +90,7 @@ gulp.task('img:build', () =>
 
 gulp.task('fonts', () =>
     gulp.src('static/fonts/**/*.*')
-        .pipe(gulp.dest('../dist/fonts/'))
+    .pipe(gulp.dest('../dist/fonts/'))
 );
 
 gulp.task('watch', () => {

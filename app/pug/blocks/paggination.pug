@@ -1,0 +1,9 @@
+ul.paggination
+  li.paggination--item.paggination--item__arrow
+    a(href="javascript:void(0)").paggination__prev
+  each val in [1, 2, 3, 4, 5]
+    li.paggination--item
+      a(href="javascript:void(0)").paggination--page
+        = val
+  li.paggination--item.paggination--item__arrow
+    a(href="javascript:void(0)").paggination__next

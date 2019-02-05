@@ -1,0 +1,105 @@
+.smart-filter
+  width 100%
+  max-width 1300px
+  margin 0 auto
+  display flex
+  justify-content space-between
+  flex-wrap: wrap
+  padding-top 42px
+
+  &--form
+    display flex
+    justify-content space-between
+    flex-wrap: wrap
+    align-items flex-start
+
+    &--controls
+      display flex
+      width 100%
+      justify-content center
+      align-items center
+      margin-bottom 60px
+
+      &__collapse,
+      &__clear,
+      &__collapse span
+        height 19px
+        overflow hidden
+        display block
+      
+      &__collapse,
+      &__clear
+        color $gray-8c
+        font-family $fontMain
+        font-size 14px
+        text-transform uppercase
+        letter-spacing: 2.5px
+        margin: 0 19px
+
+      &__collapse
+        span
+          transition: $middle
+          .smart-filter__hidden &
+            transform: translateY(-19px)
+            margin-right 10px
+        
+
+  &--item
+    padding-bottom 26px
+
+    &--name
+      color $gray-8c
+      font-family $fontMain
+      font-size 14px
+      text-transform uppercase
+      letter-spacing 2.8px
+      margin-bottom 5px
+
+  &--drop
+    width 290px
+    border 1px solid $gray-8c
+    overflow hidden
+
+    &--heading,
+    &--slider label
+      min-height 50px
+
+    &--heading
+      position relative
+
+      &::after
+        content: ''
+        display block
+        sprite($s_arrow_bottom)
+        position absolute
+        right 25px
+        top 0
+        transition: $fast
+
+        .smart-filter--item__open &
+          transform: scaleY(-1) translateY(-18px)
+
+    &--slider
+      display none
+      section
+        display flex
+        flex-direction: column
+        border-top: 1px solid $gray-8c
+      
+      input
+        display none
+
+  &--label,
+  .smart-filter--drop--heading
+    display flex
+    align-items center
+    padding 0 30px 0 21px
+    transition: $fast
+    color $gray-8c
+    font-family $fontLight
+    font-size 14px
+    font-weight 400
+    letter-spacing 1.4px
+
+    &__selected
+      background $gray-d8

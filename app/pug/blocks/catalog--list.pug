@@ -1,0 +1,13 @@
+.catalog--list
+  each good in goods
+    a(href= good.link).catalog--item
+      p.catalog--item__fade-left подробнее
+      img(src= good.img, alt= good.color).catalog--item--img
+      p.catalog--item__brand
+        = good.brand
+      p.catalog--item__name
+        = good.color
+      p.catalog--item__type
+        span Тип: 
+        = good.type
+  include paggination

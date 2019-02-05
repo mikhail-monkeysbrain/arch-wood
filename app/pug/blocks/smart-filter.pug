@@ -1,0 +1,23 @@
+.smart-filter
+  // специально реализовал форму на чекбоксах, чтобы можно было делать множественные фильтры
+  form.smart-filter--form(action="")
+    each filter in catalogFilter
+      .smart-filter--item
+        .smart-filter--item--name= filter.heading
+        .smart-filter--drop
+          .smart-filter--drop--heading
+            | Все
+          .smart-filter--drop--slider
+            section
+              label.smart-filter--label
+                | Все
+                input(type="checkbox" name= filter.heading value="").smart-filter--check--reset
+              each option in filter.array
+                label.smart-filter--label
+                  = option.name
+                  input(type="checkbox" name= filter.heading value= option.value).smart-filter--check
+  .smart-filter--form--controls
+    a(href="javascript:void(0)").smart-filter--form--controls__collapse 
+      span Свернуть
+      span Развернуть
+    a(href="javascript:void(0)").smart-filter--form--controls__clear Очистить

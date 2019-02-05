@@ -28,74 +28,292 @@
 		}
   },
   "breadCrumbs": {
-    "d-1": "Главная",
-    "d-2": "Паркет",
-    "d-3": "Паркетная доска"
+    "d-1": {
+      "name": "Главная",
+      "link": "javascript:void(0)"
+    },
+    "d-2": {
+      "name": "Паркет",
+      "link": "javascript:void(0)"
+    },
+    "d-3": {
+      "name": "Паркетная доска",
+      "link": "javascript:void(0)"
+    }
   },
-  "cardHeading": "Паркетная доска",
-  "cardDescription": "Паркетная доска занимает особое место среди материалов, используемых для отделки полов. Она сумела сохранить в себе лучшие качества, присущее традиционному штучному паркету и обрести повышенные эксплуатационные характеристики, свойственные инновационным продуктам. Паркетная доска универсальна. Великолепные напольные покрытия, созданные из нее, украшают роскошные особняки, обычные квартиры, концертные, банкетные залы, офисы во многих городах России и других стран мира. Выгодно приобрести замечательный материал в городе Москва предлагает компания ParketDocka.ru. Мы работаем в этом сегменте рынка уже около 17 лет, входим в число лидеров продаж паркетной доски в стране и сможем предложить вам именно то, что нужно!",
   "catalogFilter": {
     "catalogFilterOption-1": {
       "heading": "Длина",
-      "array": ["Все, 100, 200, 300"]
+      "array": {
+        "opt-1": {
+          "value": "100",
+          "name": "100"
+        },
+        "opt-2": {
+          "value": "200",
+          "name": "200"
+        },
+        "opt-3": {
+          "value": "300",
+          "name": "300"
+        }
+      },
+      "name": "filtername-1"
     },
     "catalogFilterOption-2": {
       "heading": "ширина",
-      "array": ["Все, 100, 200, 300"]
+      "array": {
+        "opt-1": {
+          "value": "100",
+          "name": "100"
+        },
+        "opt-2": {
+          "value": "200",
+          "name": "200"
+        },
+        "opt-3": {
+          "value": "300",
+          "name": "300"
+        }
+      },
+      "name": "filtername-2"
     },
     "catalogFilterOption-3": {
       "heading": "толщина",
-      "array": ["Все, 100, 200, 300"]
+      "array": {
+        "opt-1": {
+          "value": "100",
+          "name": "100"
+        },
+        "opt-2": {
+          "value": "200",
+          "name": "200"
+        },
+        "opt-3": {
+          "value": "300",
+          "name": "300"
+        }
+      },
+      "name": "filtername-3"
     },
     "catalogFilterOption-4": {
       "heading": "бренд",
-      "array": ["Все, 100, 200, 300"]
+      "array": {
+        "opt-1": {
+          "value": "100",
+          "name": "100"
+        },
+        "opt-2": {
+          "value": "200",
+          "name": "200"
+        },
+        "opt-3": {
+          "value": "300",
+          "name": "300"
+        }
+      },
+      "name": "filtername-4"
     },
     "catalogFilterOption-5": {
       "heading": "тип",
-      "array": ["Все, 100, 200, 300"]
+      "array": {
+        "opt-1": {
+          "value": "100",
+          "name": "100"
+        },
+        "opt-2": {
+          "value": "200",
+          "name": "200"
+        },
+        "opt-3": {
+          "value": "300",
+          "name": "300"
+        }
+      },
+      "name": "filtername-5"
     },
     "catalogFilterOption-6": {
       "heading": "порода дерева",
-      "array": ["Все, 100, 200, 300"]
+      "array": {
+        "opt-1": {
+          "value": "100",
+          "name": "100"
+        },
+        "opt-2": {
+          "value": "200",
+          "name": "200"
+        },
+        "opt-3": {
+          "value": "300",
+          "name": "300"
+        }
+      },
+      "name": "filtername-6"
     },
     "catalogFilterOption-7": {
       "heading": "селекция",
-      "array": ["Все, 100, 200, 300"]
+      "array": {
+        "opt-1": {
+          "value": "100",
+          "name": "100"
+        },
+        "opt-2": {
+          "value": "200",
+          "name": "200"
+        },
+        "opt-3": {
+          "value": "300",
+          "name": "300"
+        }
+      },
+      "name": "filtername-7"
     },
     "catalogFilterOption-8": {
       "heading": "финишная обработка",
-      "array": ["Все, 100, 200, 300"]
+      "array": {
+        "opt-1": {
+          "value": "100",
+          "name": "100"
+        },
+        "opt-2": {
+          "value": "200",
+          "name": "200"
+        },
+        "opt-3": {
+          "value": "300",
+          "name": "300"
+        }
+      },
+      "name": "filtername-8",
+      "class": "smart-filter--item--select__disabled"
     },
     "catalogFilterOption-9": {
       "heading": "цвет",
-      "array": ["Все, 100, 200, 300"]
+      "array": {
+        "opt-1": {
+          "value": "100",
+          "name": "100"
+        },
+        "opt-2": {
+          "value": "200",
+          "name": "200"
+        },
+        "opt-3": {
+          "value": "300",
+          "name": "300"
+        }
+      },
+      "name": "filtername-9"
     }
   },
   "goods": {
     "good-1": {
-      "brend": "Ebony&Co",
+      "brand": "Ebony&Co",
       "color": "Европейский дуб",
       "type": "массивная доска",
       "link": "javascript:void(0)",
       "img": "./dist/img/upload/c-1.jpg"
     },
     "good-2": {
-      "brend": "Ebony&Co",
+      "brand": "Ebony&Co",
       "color": "Континентальный дуб",
       "type": "массивная доска",
       "link": "javascript:void(0)",
       "img": "./dist/img/upload/c-2.jpg"
     },
     "good-3": {
-      "brend": "Ebony&Co",
+      "brand": "Ebony&Co",
       "color": "Амриканский белый дуб",
       "type": "массивная доска",
       "link": "javascript:void(0)",
       "img": "./dist/img/upload/c-3.jpg"
     },
     "good-4": {
-      "brend": "Ebony&Co",
+      "brand": "Ebony&Co",
+      "color": "Амриканский белый дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-4.jpg"
+    },
+    "good-5": {
+      "brand": "Ebony&Co",
+      "color": "Европейский дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-1.jpg"
+    },
+    "good-6": {
+      "brand": "Ebony&Co",
+      "color": "Континентальный дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-2.jpg"
+    },
+    "good-7": {
+      "brand": "Ebony&Co",
+      "color": "Амриканский белый дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-3.jpg"
+    },
+    "good-8": {
+      "brand": "Ebony&Co",
+      "color": "Амриканский белый дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-4.jpg"
+    },
+    "good-9": {
+      "brand": "Ebony&Co",
+      "color": "Европейский дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-1.jpg"
+    },
+    "good-10": {
+      "brand": "Ebony&Co",
+      "color": "Континентальный дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-2.jpg"
+    },
+    "good-11": {
+      "brand": "Ebony&Co",
+      "color": "Амриканский белый дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-3.jpg"
+    },
+    "good-12": {
+      "brand": "Ebony&Co",
+      "color": "Амриканский белый дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-4.jpg"
+    },
+    "good-13": {
+      "brand": "Ebony&Co",
+      "color": "Европейский дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-1.jpg"
+    },
+    "good-14": {
+      "brand": "Ebony&Co",
+      "color": "Континентальный дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-2.jpg"
+    },
+    "good-15": {
+      "brand": "Ebony&Co",
+      "color": "Амриканский белый дуб",
+      "type": "массивная доска",
+      "link": "javascript:void(0)",
+      "img": "./dist/img/upload/c-3.jpg"
+    },
+    "good-16": {
+      "brand": "Ebony&Co",
       "color": "Амриканский белый дуб",
       "type": "массивная доска",
       "link": "javascript:void(0)",

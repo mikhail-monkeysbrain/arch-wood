@@ -1,0 +1,51 @@
+.paggination
+  display flex
+  justify-content center
+  align-items center
+  list-style: none
+  width 100%
+  padding 10px 0 97px
+
+  &--item
+
+    &__arrow
+      padding 16px
+
+      &:hover
+      
+        .paggination__prev
+          transform translateX(-10px)
+
+        .paggination__next
+          transform translateX(10px)
+
+
+    a
+      transition: $fast
+      opacity 1
+      display block
+
+      &:hover
+        transform scale(1.2)
+
+  &--page
+    padding 16px
+    color $gray-8c
+    font-family $fontMain
+    font-size 14px
+    text-transform uppercase
+    letter-spacing 1.02px
+
+  &__prev
+    sprite($s_arrow_right)
+    display block
+    margin-right 33px
+    padding 0
+    transition: $fast
+
+  &__next
+    sprite($s_arrow_left)
+    display block
+    margin-left 33px
+    padding 0
+    transition: $fast

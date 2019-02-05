@@ -12,13 +12,356 @@
       <div class="header--nav">
         <nav class="header--directions"><a class="header--nav--item header--directions--item header--nav--item__active" href="javascript:void(0)">Паркет</a><a class="header--nav--item header--directions--item" href="javascript:void(0)">Керамика</a>
         </nav>
-        <nav class="header--nav__pages"><a class="header--nav--item header--nav--item__active" href="javascript:void(0)">О нас</a><a class="header--nav--item __underline" href="javascript:void(0)">Контакты</a><a class="header--nav--item header--nav--item__active" href="javascript:void(0)">Дизайнерам и архитекторам</a>
+        <nav class="header--nav__pages"><a class="header--nav--item header--nav--item__active" href="javascript:void(0)">О нас</a><a class="header--nav--item __underline" href="javascript:void(0)">Контакты</a><a class="header--nav--item .header--nav--item__active" href="javascript:void(0)">Дизайнерам и архитекторам</a>
         </nav><a class="header--phone" href="tel:+74955555555">+7 (495) <span class="__black">555-55-55</span></a>
         <button class="btn btn__transparent btn__middle">Обратный звонок</button>
       </div>
+      <div class="header--banner"><img class="header--banner--img" src="./dist/img/core/banner.jpg" alt="banner"/>
+        <div class="header--banner--logo"></div>
+        <div class="header--banner--content">
+          <hr/><a class="header--banner--link" href="javascript:void(0)">Паркет</a>
+          <div class="circle"></div><a class="header--banner--link" href="javascript:void(0)">Керамика</a>
+          <hr/>
+        </div>
+      </div>
     </header>
     <main class="grid">
-      <h2>main</h2>
+      <ul class="breadcrumbs">
+        <li class="breadcrumbs--item"><a class="breadcrumbs--link" href="javascript:void(0)">Главная</a></li>
+        <li class="breadcrumbs--item"><a class="breadcrumbs--link" href="javascript:void(0)">Паркет</a></li>
+        <li class="breadcrumbs--item"><a class="breadcrumbs--link" href="javascript:void(0)">Паркетная доска</a></li>
+      </ul>
+      <div class="card--about">
+        <h1>Паркетная доска</h1>
+        <p>Паркетная доска занимает особое место среди материалов, используемых для отделки полов. Она сумела сохранить в себе лучшие качества, присущее традиционному штучному паркету и обрести повышенные эксплуатационные характеристики, свойственные инновационным продуктам. Паркетная доска универсальна. Великолепные напольные покрытия, созданные из нее, украшают роскошные особняки, обычные квартиры, концертные, банкетные залы, офисы во многих городах России и других стран мира. Выгодно приобрести замечательный материал в городе Москва предлагает компания ParketDocka.ru. Мы работаем в этом сегменте рынка уже около 17 лет, входим в число лидеров продаж паркетной доски в стране и сможем предложить вам именно то, что нужно!</p>
+      </div>
+      <div class="smart-filter">
+        <!-- специально реализовал форму на чекбоксах, чтобы можно было делать множественные фильтры-->
+        <form class="smart-filter--form" action="">
+          <div class="smart-filter--item">
+            <div class="smart-filter--item--name">Длина</div>
+            <div class="smart-filter--drop">
+              <div class="smart-filter--drop--heading">Все</div>
+              <div class="smart-filter--drop--slider">
+                <section>
+                  <label class="smart-filter--label">Все
+                    <input class="smart-filter--check--reset" type="checkbox" name="Длина" value=""/>
+                  </label>
+                  <label class="smart-filter--label">100
+                    <input class="smart-filter--check" type="checkbox" name="Длина" value="100"/>
+                  </label>
+                  <label class="smart-filter--label">200
+                    <input class="smart-filter--check" type="checkbox" name="Длина" value="200"/>
+                  </label>
+                  <label class="smart-filter--label">300
+                    <input class="smart-filter--check" type="checkbox" name="Длина" value="300"/>
+                  </label>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="smart-filter--item">
+            <div class="smart-filter--item--name">ширина</div>
+            <div class="smart-filter--drop">
+              <div class="smart-filter--drop--heading">Все</div>
+              <div class="smart-filter--drop--slider">
+                <section>
+                  <label class="smart-filter--label">Все
+                    <input class="smart-filter--check--reset" type="checkbox" name="ширина" value=""/>
+                  </label>
+                  <label class="smart-filter--label">100
+                    <input class="smart-filter--check" type="checkbox" name="ширина" value="100"/>
+                  </label>
+                  <label class="smart-filter--label">200
+                    <input class="smart-filter--check" type="checkbox" name="ширина" value="200"/>
+                  </label>
+                  <label class="smart-filter--label">300
+                    <input class="smart-filter--check" type="checkbox" name="ширина" value="300"/>
+                  </label>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="smart-filter--item">
+            <div class="smart-filter--item--name">толщина</div>
+            <div class="smart-filter--drop">
+              <div class="smart-filter--drop--heading">Все</div>
+              <div class="smart-filter--drop--slider">
+                <section>
+                  <label class="smart-filter--label">Все
+                    <input class="smart-filter--check--reset" type="checkbox" name="толщина" value=""/>
+                  </label>
+                  <label class="smart-filter--label">100
+                    <input class="smart-filter--check" type="checkbox" name="толщина" value="100"/>
+                  </label>
+                  <label class="smart-filter--label">200
+                    <input class="smart-filter--check" type="checkbox" name="толщина" value="200"/>
+                  </label>
+                  <label class="smart-filter--label">300
+                    <input class="smart-filter--check" type="checkbox" name="толщина" value="300"/>
+                  </label>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="smart-filter--item">
+            <div class="smart-filter--item--name">бренд</div>
+            <div class="smart-filter--drop">
+              <div class="smart-filter--drop--heading">Все</div>
+              <div class="smart-filter--drop--slider">
+                <section>
+                  <label class="smart-filter--label">Все
+                    <input class="smart-filter--check--reset" type="checkbox" name="бренд" value=""/>
+                  </label>
+                  <label class="smart-filter--label">100
+                    <input class="smart-filter--check" type="checkbox" name="бренд" value="100"/>
+                  </label>
+                  <label class="smart-filter--label">200
+                    <input class="smart-filter--check" type="checkbox" name="бренд" value="200"/>
+                  </label>
+                  <label class="smart-filter--label">300
+                    <input class="smart-filter--check" type="checkbox" name="бренд" value="300"/>
+                  </label>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="smart-filter--item">
+            <div class="smart-filter--item--name">тип</div>
+            <div class="smart-filter--drop">
+              <div class="smart-filter--drop--heading">Все</div>
+              <div class="smart-filter--drop--slider">
+                <section>
+                  <label class="smart-filter--label">Все
+                    <input class="smart-filter--check--reset" type="checkbox" name="тип" value=""/>
+                  </label>
+                  <label class="smart-filter--label">100
+                    <input class="smart-filter--check" type="checkbox" name="тип" value="100"/>
+                  </label>
+                  <label class="smart-filter--label">200
+                    <input class="smart-filter--check" type="checkbox" name="тип" value="200"/>
+                  </label>
+                  <label class="smart-filter--label">300
+                    <input class="smart-filter--check" type="checkbox" name="тип" value="300"/>
+                  </label>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="smart-filter--item">
+            <div class="smart-filter--item--name">порода дерева</div>
+            <div class="smart-filter--drop">
+              <div class="smart-filter--drop--heading">Все</div>
+              <div class="smart-filter--drop--slider">
+                <section>
+                  <label class="smart-filter--label">Все
+                    <input class="smart-filter--check--reset" type="checkbox" name="порода дерева" value=""/>
+                  </label>
+                  <label class="smart-filter--label">100
+                    <input class="smart-filter--check" type="checkbox" name="порода дерева" value="100"/>
+                  </label>
+                  <label class="smart-filter--label">200
+                    <input class="smart-filter--check" type="checkbox" name="порода дерева" value="200"/>
+                  </label>
+                  <label class="smart-filter--label">300
+                    <input class="smart-filter--check" type="checkbox" name="порода дерева" value="300"/>
+                  </label>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="smart-filter--item">
+            <div class="smart-filter--item--name">селекция</div>
+            <div class="smart-filter--drop">
+              <div class="smart-filter--drop--heading">Все</div>
+              <div class="smart-filter--drop--slider">
+                <section>
+                  <label class="smart-filter--label">Все
+                    <input class="smart-filter--check--reset" type="checkbox" name="селекция" value=""/>
+                  </label>
+                  <label class="smart-filter--label">100
+                    <input class="smart-filter--check" type="checkbox" name="селекция" value="100"/>
+                  </label>
+                  <label class="smart-filter--label">200
+                    <input class="smart-filter--check" type="checkbox" name="селекция" value="200"/>
+                  </label>
+                  <label class="smart-filter--label">300
+                    <input class="smart-filter--check" type="checkbox" name="селекция" value="300"/>
+                  </label>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="smart-filter--item">
+            <div class="smart-filter--item--name">финишная обработка</div>
+            <div class="smart-filter--drop">
+              <div class="smart-filter--drop--heading">Все</div>
+              <div class="smart-filter--drop--slider">
+                <section>
+                  <label class="smart-filter--label">Все
+                    <input class="smart-filter--check--reset" type="checkbox" name="финишная обработка" value=""/>
+                  </label>
+                  <label class="smart-filter--label">100
+                    <input class="smart-filter--check" type="checkbox" name="финишная обработка" value="100"/>
+                  </label>
+                  <label class="smart-filter--label">200
+                    <input class="smart-filter--check" type="checkbox" name="финишная обработка" value="200"/>
+                  </label>
+                  <label class="smart-filter--label">300
+                    <input class="smart-filter--check" type="checkbox" name="финишная обработка" value="300"/>
+                  </label>
+                </section>
+              </div>
+            </div>
+          </div>
+          <div class="smart-filter--item">
+            <div class="smart-filter--item--name">цвет</div>
+            <div class="smart-filter--drop">
+              <div class="smart-filter--drop--heading">Все</div>
+              <div class="smart-filter--drop--slider">
+                <section>
+                  <label class="smart-filter--label">Все
+                    <input class="smart-filter--check--reset" type="checkbox" name="цвет" value=""/>
+                  </label>
+                  <label class="smart-filter--label">100
+                    <input class="smart-filter--check" type="checkbox" name="цвет" value="100"/>
+                  </label>
+                  <label class="smart-filter--label">200
+                    <input class="smart-filter--check" type="checkbox" name="цвет" value="200"/>
+                  </label>
+                  <label class="smart-filter--label">300
+                    <input class="smart-filter--check" type="checkbox" name="цвет" value="300"/>
+                  </label>
+                </section>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="smart-filter--form--controls"><a class="smart-filter--form--controls__collapse" href="javascript:void(0)"> <span>Свернуть</span><span>Развернуть</span></a><a class="smart-filter--form--controls__clear" href="javascript:void(0)">Очистить</a></div>
+      </div>
+      <div class="catalog--list"><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-1.jpg" alt="Европейский дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Европейский дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-2.jpg" alt="Континентальный дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Континентальный дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-3.jpg" alt="Амриканский белый дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Амриканский белый дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-4.jpg" alt="Амриканский белый дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Амриканский белый дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-1.jpg" alt="Европейский дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Европейский дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-2.jpg" alt="Континентальный дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Континентальный дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-3.jpg" alt="Амриканский белый дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Амриканский белый дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-4.jpg" alt="Амриканский белый дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Амриканский белый дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-1.jpg" alt="Европейский дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Европейский дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-2.jpg" alt="Континентальный дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Континентальный дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-3.jpg" alt="Амриканский белый дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Амриканский белый дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-4.jpg" alt="Амриканский белый дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Амриканский белый дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-1.jpg" alt="Европейский дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Европейский дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-2.jpg" alt="Континентальный дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Континентальный дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-3.jpg" alt="Амриканский белый дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Амриканский белый дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a><a class="catalog--item" href="javascript:void(0)">
+          <p class="catalog--item__fade-left">подробнее</p><img class="catalog--item--img" src="./dist/img/upload/c-4.jpg" alt="Амриканский белый дуб"/>
+          <p class="catalog--item__brand">Ebony&amp;Co
+          </p>
+          <p class="catalog--item__name">Амриканский белый дуб
+          </p>
+          <p class="catalog--item__type"><span>Тип: </span>массивная доска
+          </p></a>
+        <ul class="paggination">
+          <li class="paggination--item paggination--item__arrow"><a class="paggination__prev" href="javascript:void(0)"></a></li>
+          <li class="paggination--item"><a class="paggination--page" href="javascript:void(0)">1</a></li>
+          <li class="paggination--item"><a class="paggination--page" href="javascript:void(0)">2</a></li>
+          <li class="paggination--item"><a class="paggination--page" href="javascript:void(0)">3</a></li>
+          <li class="paggination--item"><a class="paggination--page" href="javascript:void(0)">4</a></li>
+          <li class="paggination--item"><a class="paggination--page" href="javascript:void(0)">5</a></li>
+          <li class="paggination--item paggination--item__arrow"><a class="paggination__next" href="javascript:void(0)"></a></li>
+        </ul>
+      </div>
     </main>
     <footer class="footer">
       <div class="footer__top"><a class="footer--logo" href="javascript:void(0)"><img class="footer--logo--img" src="./dist/img/core/logo__footer.png" alt="logo"/></a>
@@ -32,8 +375,14 @@
           <p class="footer--inline">пн-пт 10:00 - 20:00</p>
           <p class="footer--inline">сб-вс 11:00 - 19:00</p>
         </div>
+        <div class="footer--social"><a class="footer--social__item footer--social__facebook" href="javascript:void(0)"></a><a class="footer--social__item footer--social__vk" href="javascript:void(0)"></a><a class="footer--social__item footer--social__instagram" href="javascript:void(0)"></a><a class="footer--social__item footer--social__pinterest" href="javascript:void(0)"></a><a class="footer--social__item footer--social__youtube" href="javascript:void(0)"></a></div>
+        <button class="btn btn__transparent btn__large">Оставить заявку</button>
       </div>
-      <div class="footer__bottom"></div>
+      <div class="footer__bottom">
+        <div class="footer--copy">© 2018 Arch Wood. Паркет и керамогранит. Все права защищены.</div><a class="footer--politic" href="javascript:void(0)">Политика конфиденциальности</a><a class="footer--developer" href="javascript:void(0)"><img class="footer--developer--img" src="./dist/img/core/siart.png" alt="developer"/>
+          <p>
+             Разработка<br/>сайта</p></a>
+      </div>
     </footer>
     <script src="dist/js/app.js"></script>
   </body>

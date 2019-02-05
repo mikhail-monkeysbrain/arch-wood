@@ -1,0 +1,57 @@
+.catalog
+  
+  &--list
+    display flex
+    flex-wrap: wrap
+    justify-content space-between
+    align-items center
+    width 100%
+    max-width 1380px
+    margin 0 auto
+
+  &--item
+    width 300px
+    height 400px
+    position relative
+    overflow hidden
+    margin-bottom 48px
+
+    &:hover
+      .catalog--item__fade-left
+        left 0
+        opacity 1
+
+    &__fade-left
+      position: absolute
+      top: 21px
+      left: -8em
+      padding-left: 2em
+      border-bottom: 1px solid
+      opacity 0
+      transition: $slow
+      width 10em
+      padding-left 2em
+      color $gray-d8
+      font-family $fontMain
+      font-size 14px
+      text-transform uppercase
+      letter-spacing 3px
+
+    &__brand,
+    &__type
+      color $gray-9e
+      font-family $fontMain
+      font-size 14px
+      margin-top 12px
+      text-transform uppercase
+      letter-spacing 1.2x
+
+    &__type
+      margin-top: 3px
+      letter-spacing: 1.3px
+
+    &__name
+      color $black
+      font-family $fontMain
+      font-size 20px
+      line-height 1.3

@@ -1,0 +1,31 @@
+.breadcrumbs
+  list-style: none
+  display flex
+  align-items center
+  width 100%
+  max-width 1300px
+  margin 0 auto
+  padding 62px 0 0 0
+
+  &--item
+    text-transform uppercase
+
+    &:nth-last-child(1)
+      &::after
+        display none  
+    
+    &::after
+      content: '\2014'
+      margin 0 5px
+
+    a
+      color $gray-9e
+      font-family $fontMain
+      font-size 12px
+      text-transform uppercase
+      transition: $fast
+      padding: 10px 0
+      letter-spacing: 1.3px
+
+      &:hover
+        color $black
